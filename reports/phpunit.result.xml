@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="6" assertions="5" errors="1" warnings="0" failures="0" skipped="0" time="0.003961">
+    <testsuite name="Test Suite" tests="6" assertions="5" errors="1" warnings="0" failures="0" skipped="0" time="0.003961">
+      <testsuite name="CalculatorTest" file="tests/CalculatorTest.php" tests="5" assertions="4" errors="1" warnings="0" failures="0" skipped="0" time="0.003733">
+        <testsuite name="CalculatorTest::testAddNumbers" tests="4" assertions="3" errors="1" warnings="0" failures="0" skipped="0" time="0.003420">
+          <testcase name="testAddNumbers with data set #0" class="CalculatorTest" classname="CalculatorTest" file="tests/CalculatorTest.php" line="21" assertions="0" time="0.002642">
+            <error type="PHPUnit\Framework\Error\Warning">CalculatorTest::testAddNumbers with data set #0 (2, 2, 4)
+The use statement with non-compound name 'InvalidArgumentException' has no effect
+
+src/Calculator.php:3
+tests/CalculatorTest.php:7</error>
+          </testcase>
+          <testcase name="testAddNumbers with data set #1" class="CalculatorTest" classname="CalculatorTest" file="tests/CalculatorTest.php" line="21" assertions="1" time="0.000506"/>
+          <testcase name="testAddNumbers with data set #2" class="CalculatorTest" classname="CalculatorTest" file="tests/CalculatorTest.php" line="21" assertions="1" time="0.000153"/>
+          <testcase name="testAddNumbers with data set #3" class="CalculatorTest" classname="CalculatorTest" file="tests/CalculatorTest.php" line="21" assertions="1" time="0.000120"/>
+        </testsuite>
+        <testcase name="testThrowExceptionIfNonNumbericIsPassed" class="CalculatorTest" classname="CalculatorTest" file="tests/CalculatorTest.php" line="30" assertions="1" time="0.000313"/>
+      </testsuite>
+      <testsuite name="GumballMachineTest" file="tests/GumballMachineTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000228">
+        <testcase name="testTurnWheel" class="GumballMachineTest" classname="GumballMachineTest" file="tests/GumballMachineTest.php" line="8" assertions="1" time="0.000228"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614613243">
-  <project timestamp="1614613243">
+<coverage generated="1614616359">
+  <project timestamp="1614616359">
     <file name="src/Calculator.php">
       <class name="Calculator" namespace="global">
         <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
