@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <coverage generated="1614592244">
   <project timestamp="1614592244">
-    <file name="/Users/xieheng/gitspace/azurespace/test-php-coverage/src/Calculator.php">
+    <file name="src/Calculator.php">
       <class name="Calculator" namespace="global">
         <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
       </class>
@@ -12,7 +12,7 @@
       <line num="16" type="stmt" count="0"/>
       <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
     </file>
-    <file name="/Users/xieheng/gitspace/azurespace/test-php-coverage/src/GumballMachine.php">
+    <file name="src/GumballMachine.php">
       <class name="GumballMachine" namespace="global">
         <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
       </class>
