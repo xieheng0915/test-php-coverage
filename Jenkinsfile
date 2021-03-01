@@ -7,7 +7,7 @@ pipeline {
     // 環境変数を設定します
     environment {
         //Gitlabのプロジェクトのgit URL　（変更箇所）
-        SCMURL = 'https://github.com/xieheng0915/test-php-coverage.git sonar-project.properties'
+        SCMURL = 'https://github.com/xieheng0915/test-php-coverage.git'
     }
     // 処理
     stages {
@@ -32,7 +32,7 @@ pipeline {
         stage('sonar-scanner') {
             steps {
                 // sonar-scanner->jenkins server reboot -> sonar-scanner
-                sh '/opt/sonar-scanner/bin/sonar-scanner '
+                sh '/opt/sonar-scanner/bin/sonar-scanner sonar-project.properties'
             }
         }
 
