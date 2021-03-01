@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1614592244">
+  <project timestamp="1614592244">
+    <file name="/Users/xieheng/gitspace/azurespace/test-php-coverage/src/Calculator.php">
+      <class name="Calculator" namespace="global">
+        <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </class>
+      <line num="8" type="method" name="add" visibility="public" complexity="3" crap="3" count="4"/>
+      <line num="10" type="stmt" count="4"/>
+      <line num="11" type="stmt" count="1"/>
+      <line num="14" type="stmt" count="3"/>
+      <line num="16" type="stmt" count="0"/>
+      <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+    </file>
+    <file name="/Users/xieheng/gitspace/azurespace/test-php-coverage/src/GumballMachine.php">
+      <class name="GumballMachine" namespace="global">
+        <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
+      </class>
+      <line num="7" type="method" name="getGumballs" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="8" type="stmt" count="1"/>
+      <line num="11" type="method" name="setGumballs" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="12" type="stmt" count="1"/>
+      <line num="13" type="stmt" count="1"/>
+      <line num="15" type="method" name="turnWheel" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="16" type="stmt" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <line num="18" type="stmt" count="1"/>
+      <metrics loc="17" ncloc="17" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="8" coveredelements="8"/>
+    </file>
+    <metrics files="2" loc="32" ncloc="32" classes="2" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="12" coveredelements="12"/>
+  </project>
+</coverage>
