@@ -7,7 +7,7 @@ pipeline {
     // 環境変数を設定します
     environment {
         //Gitlabのプロジェクトのgit URL　（変更箇所）
-        SCMURL = 'https://github.com/xieheng0915/test-php-coverage.git'
+        SCMURL = 'https://github.com/xieheng0915/test-php-coverage.git sonar-project.properties'
     }
     // 処理
     stages {
