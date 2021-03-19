@@ -32,7 +32,7 @@ pipeline {
         stage('sonar-scanner') {
             steps {
                 // sonar-scanner->jenkins server reboot -> sonar-scanner
-                sh '/opt/sonar-scanner/bin/sonar-scanner'
+                sh '/usr/share/sonar/sonar-scanner-4.3.0.2102-linux/bin/sonar-scanner'
             }
         }
 
